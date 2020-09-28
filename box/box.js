@@ -1,6 +1,6 @@
 (function() { 
 	let template = document.createElement("template");
-	template.innerHTML = `
+	template.innerHTML = '
 		<style>
 		:host {
 			border-radius: 10px;
@@ -54,7 +54,7 @@
 		    </div>
 		  </div>
 		</div>
-	`;
+	';
 
 	class Box extends HTMLElement {
 		constructor() {
